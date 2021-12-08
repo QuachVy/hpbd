@@ -90,3 +90,26 @@ body {
       transform: translateY(-2000px);
     }
   }
+
+@media all and (max-width:771px) {
+    h1 {
+      font-size: 35px;
+    }
+    
+    img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    }
+
+    a{
+    color: coral;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  }
